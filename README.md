@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Cart Application
+# 🛒 E-Com Cart Application
 
 A **full-stack e-commerce application** with shopping cart functionality, built using **React.js** on the frontend and **Node.js + Express** on the backend.
 
