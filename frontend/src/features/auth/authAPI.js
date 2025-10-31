@@ -6,7 +6,7 @@ export const loginUser = async (data) => {
 };
 
 export const registerUser = async (data) => {
-  const res = await axiosInstance.post('/api/users/signup', data);
+  const res = await axiosInstance.post('https://e-com-cart-phi.vercel.app/api/users/signup', data);
   return res.data;
 };
 
