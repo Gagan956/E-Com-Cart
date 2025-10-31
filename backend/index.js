@@ -40,6 +40,10 @@ app.use("/api/products", productRoutes);
 app.use("/api/cart", cartRoutes);
 app.use("/api/seed", seedRoutes); 
 
+
+app.get("/", (req, res) => {
+  res.json({ message: "Server is running!" });
+});
 // checking  Purpose
 app.get("/api/health", (req, res) => {
   res.json({ message: "Server is running!" });
